@@ -1,7 +1,7 @@
 # TITLE
-## Petflix
+## petfind
 
-- Petflix is a web application that helps people find pets to adopt. The project uses data  to display information about animals and organizations available for adoption.
+- Petfind is a web application that helps people find pets to adopt. The project uses data  to display information about animals and organizations available for adoption.
 
 # Minimum Viable Product (MVP)
 The MVP for the project includes the following features:
@@ -16,7 +16,7 @@ A details page for each organization that provides detailed information about th
 
 
 # LIVE LINK
-
+    [https://vercel.com/darylcosm0/petfind-cthv/J7gjtH9K8KymE8XV2qcgrRWGboNT]
 # Getting Started
 In order for you to use the content on this repo ensure you have the following:
 

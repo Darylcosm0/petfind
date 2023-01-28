@@ -10,7 +10,7 @@ function Navbar() {
           <Link to="/">
             <img
               alt=""
-              src="https://my-video-five.vercel.app/image/logo%201.png"
+              src="https://www.alertall.com/Pet-Finder-Window-Clings/image/item/008"
               className="img-nav"
             />
           </Link>
@@ -18,7 +18,7 @@ function Navbar() {
             FIND PET
           </Link>
           <Link className="img-nav" to="/organizationList">
-            <span>ORGANISATIONS AND OTHER</span>
+            <span>ORGANISATIONS </span>
           </Link>
           <Link className="img-nav" to="/login">
             SIGN UP
