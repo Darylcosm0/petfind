@@ -7,7 +7,7 @@ function Login() {
         <div className="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
           <div className="md:w-8/12 lg:w-6/12 mb-12 md:mb-0">
             <img
-              src="https://25.media.tumblr.com/8841ec49dda4ad654a14548f397e33c4/tumblr_mg6b5xgrQb1rls0kbo1_500.gif"
+              src="https://media.tenor.com/a7uM5dZRFagAAAAd/snowball-secret-life-of-pets.gif"
               className="w-full"
               alt="pet"
             />
@@ -25,7 +25,7 @@ function Login() {
               <div className="mb-6">
                 <input
                   type="password"
-                  className="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                  className="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-black-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                   placeholder="Password"
                 />
               </div>
@@ -34,28 +34,28 @@ function Login() {
                 <div className="form-group form-check">
                   <input
                     type="checkbox"
-                    className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-cyan-500 checked:border-cyan-500 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+                    className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-purple-500 checked:border-cyan-500 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                     id="exampleCheck3"
                     checked
                   />
                   <label
-                    className="form-check-label inline-block text-gray-800"
+                    className="form-check-label inline-block text-purple-800"
                     for="exampleCheck2"
                   >
-                    Remember me
+                    Save log in info
                   </label>
                 </div>
                 <a
                   href="#!"
-                  className="text-cyan-500 hover:text-blue-700 focus:text-blue-700 active:text-blue-800 duration-200 transition ease-in-out"
+                  className="text-purple-500 hover:text-purple-700 focus:text-purple-700 active:text-purple-800 duration-200 transition ease-in-out"
                 >
-                  Forgot password?
+                  Forgotten password?
                 </a>
               </div>
 
               <button
                 type="submit"
-                className="inline-block px-7 py-3 bg-cyan-500 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full"
+                className="inline-block px-7 py-3 bg-purple-500 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-800 active:shadow-lg transition duration-150 ease-in-out w-full"
                 data-mdb-ripple="true"
                 data-mdb-ripple-color="light"
               >
@@ -64,11 +64,12 @@ function Login() {
 
               <div className="flex items-center my-4 before:flex-1 before:border-t before:border-gray-300 before:mt-0.5 after:flex-1 after:border-t after:border-gray-300 after:mt-0.5">
                 <p className="text-center font-semibold mx-4 mb-0">OR</p>
+                
               </div>
 
               <a
                 className="px-7 py-3 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full flex justify-center items-center mb-3"
-                style={{backgroundColor: "#3b5998"}}
+                style={{backgroundColor: "#55ac"}}
                 href="#!"
                 role="button"
                 data-mdb-ripple="true"
@@ -88,7 +89,7 @@ function Login() {
               </a>
               <a
                 className="px-7 py-3 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full flex justify-center items-center"
-                style={{backgroundColor: "#55acee"}}
+                style={{backgroundColor: "#55ac"}}
                 href="#!"
                 role="button"
                 data-mdb-ripple="true"

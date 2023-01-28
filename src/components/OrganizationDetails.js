@@ -44,7 +44,7 @@ function OrganizationDetails() {
                  alt={organization.name + " logo"}
                  width="60"
                  height="88"
-                 className="flex-none rounded-md bg-slate-100"
+                 className="flex-none rounded-md bg-purple-100"
                />
              )}{" "}
    </div>

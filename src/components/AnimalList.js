@@ -33,9 +33,9 @@ const [animals, setAnimals] = useState([]);
   return (
     <div className="bg-gray">
         <div onClick={handleClick} className="flex justify-center">
-        <Breeds breed="Cats" image="https://cdn-icons-png.flaticon.com/512/9358/9358469.png"/>
-        <Breeds breed="Dogs" image="https://cdn-icons-png.flaticon.com/512/9342/9342594.png"/>
-        <Breeds breed="Others" image="https://cdn-icons-png.flaticon.com/512/2609/2609834.png"/>
+        <Breeds breed="Cats" image="https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"/>
+        <Breeds breed="Dogs" image="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jiffpom-attends-the-3rd-annual-reality-tv-awards-at-avalon-news-photo-473261466-1548694593.jpg"/>
+        <Breeds breed="Others" image="https://t4.ftcdn.net/jpg/04/41/20/85/360_F_441208550_SiIyWkhCUAzGlIEo021bRKGbM3SMUvuD.jpg"/>
         </div>
         <Search onSearch={handleSearch}/>
       <div className="flex flex-wrap w-3/4 mx-auto">
@@ -48,7 +48,7 @@ const [animals, setAnimals] = useState([]);
               image={
                 imageUrl
                   ? imageUrl
-                  : "https://thumbs.dreamstime.com/b/vector-group-pets-dog-cat-humming-bird-parrot-rabbit-isolated-white-background-pet-icon-logo-easy-editable-layered-224673941.jpg"
+                  : "https://i2-prod.mirror.co.uk/incoming/article9691512.ece/ALTERNATES/s1200b/Main-CatsandDogs.jpg"
               }
               name={animal.name ? animal.name : "Milo"}
               breed={animal.breeds.primary}

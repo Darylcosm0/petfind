@@ -1,7 +1,15 @@
 # TITLE
 ## petfind
 
+# Description
 - Petfind is a web application that helps people find pets to adopt. The project uses data  to display information about animals and organizations available for adoption.
+# Features
+- Search for pets available for adoption near a location by ZIP codes.
+- Add pets to the favourite list.
+- Each pet card shows the image, name, breed, age, gender and distance from the searched location.
+- Pet details page show all the details of a pet with the gallery of all the available images
+- Create account using email address
+- User authentication is handled 
 
 # Minimum Viable Product (MVP)
 The MVP for the project includes the following features:
@@ -16,7 +24,9 @@ A details page for each organization that provides detailed information about th
 
 
 # LIVE LINK
-    [https://vercel.com/darylcosm0/petfind-cthv/J7gjtH9K8KymE8XV2qcgrRWGboNT]
+   [ https://petfind-cthv.vercel.app/]
+
+
 # Getting Started
 In order for you to use the content on this repo ensure you have the following:
 
@@ -34,7 +44,7 @@ To use this repo on your machine requires some simple steps
 - Open a terminal / command line interface on your computer
 - Clone the repo by using the following:
 
-        git clone git@github.com:Darylcosm0/petflix.git
+        git clone git@github.com:Darylcosm0/petfind.git
 
 Be patient as it creates a copy on your local machine for you.
 - Change directory to the repo folder:
@@ -76,7 +86,7 @@ git@github.com:Darylcosm0/petflix.git
 
 # Authors
 This project was contributed to by:
-- [Daryl ,Herbert,maxwell and Raphael](https://github.com/Darylcosm0/petflix)
+- [Daryl] ,RAPHAEL,MAXWELL AND HUBERT.
 
 # License
 The project is licensed under ISC 
